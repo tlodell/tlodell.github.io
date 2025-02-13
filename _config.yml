@@ -19,6 +19,7 @@ navbar-links:
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
+    - Get Started: "getstarted"
   Author's home: "https://tlodell.github.io"
 
 # --- Logo --- #
@@ -40,7 +41,7 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
+  email: " "
   facebook: " "
   github: " "
   twitter: " "
