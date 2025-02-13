@@ -41,23 +41,23 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: " "
-  facebook: " "
-  github: " "
-  twitter: " "
-  patreon: " "
-  youtube: " "
+  email: ""
+  facebook: ""
+  github: ""
+  twitter: ""
+  patreon: ""
+  youtube: ""
 #  medium: yourname
 #  reddit: yourname
 #  linkedin: daattali
 #  xing: yourname
-  stackoverflow: " "
+  stackoverflow: ""
 #  snapchat: deanat78
 #  instagram: deanat78
 #  spotify: yourname
 #  telephone: +14159998888
 #  steam: deanat78
-   twitch: " "
+   twitch: ""
 #  yelp: yourname
 #  telegram: yourname
 #  calendly: yourname
