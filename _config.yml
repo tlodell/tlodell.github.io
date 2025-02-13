@@ -5,11 +5,8 @@
 
 # --- Required options --- #
 
-# Name of website
-title: "Todell Website"
+title: Todell Website
 
-
-# Your name to show in the footer
 author: Tom O'Dell
 
 # --- List of links in the navigation bar --- #
