@@ -307,3 +307,6 @@ table {
   }
   
 </style>
+
+<pre>{{ page | inspect }}</pre>
+
