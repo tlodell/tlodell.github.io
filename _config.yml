@@ -11,7 +11,7 @@ navbar-links:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
     - Get Started: "getstarted"
-    - Table-demo: "table-demo"
+    Table-demo: "table-demo"
   Author's home: "https://tlodell.github.io"
 
 # --- Logo --- #
