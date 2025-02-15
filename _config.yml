@@ -4,9 +4,9 @@ title: "Thomas O'Dell"
 
 author: Tom ODell
 
-navbar-links:
-  "About Me": "aboutme"
-  "Resources":
+  navbar-links:
+    "About Me": "aboutme"
+    "Resources":
     - name: "Beautiful Jekyll"
       url: "https://beautifuljekyll.com"
     - name: "Learn markdown"
@@ -15,7 +15,7 @@ navbar-links:
       url: "getstarted"
     - name: "Table Demo"
       url: "table-demo"
-  "Author's Home": "https://tlodell.github.io"
+    "Author's Home": "https://tlodell.github.io"
 
 
 # --- Logo --- #
