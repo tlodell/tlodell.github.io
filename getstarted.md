@@ -30,7 +30,7 @@ Testing this because NOTHING is SHOWING UP
 
 __Check out [*What's New?*](https://beautifuljekyll.com/updates/) to see the latest features.__
 
-- **SIMPLE**: The primary goal of Beautiful Jekyll is to allow literally *anyone* to create a website in a few minutes.
+- **SIMPLE**: TEST TEST TEST TEST TEST The primary goal of Beautiful Jekyll is to allow literally *anyone* to create a website in a few minutes.
 - **Modern**: Uses the latest best practices and technologies to achieve nearly perfect scores on Google Chrome's Audit.
 - **Mobile-first**: Designed to look great on both large-screen and small-screen (mobile) devices.
 - **Highly customizable**: Many personalization settings such as changing the background colour/image, adding a logo.
