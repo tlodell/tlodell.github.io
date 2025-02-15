@@ -5,14 +5,19 @@ title: "Thomas O'Dell"
 
 author: Tom ODell
 
-navbar-links:
-  About Me: "aboutme"
-  Resources:
-      Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-    - Get Started: "getstarted"
-    - Table-demo: "table-demo"
-  Author's home: "https://tlodell.github.io"
+  navbar-links:
+  "About Me": "aboutme"
+  "Resources":
+    - name: "Beautiful Jekyll"
+      url: "https://beautifuljekyll.com"
+    - name: "Learn markdown"
+      url: "https://www.markdowntutorial.com/"
+    - name: "Get Started"
+      url: "getstarted"
+    - name: "Table Demo"
+      url: "table-demo"
+  "Author's Home": "https://tlodell.github.io"
+
 
 # --- Logo --- #
 
