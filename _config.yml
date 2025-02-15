@@ -4,7 +4,7 @@ title: "Thomas O'Dell"
 
 author: Tom ODell
 
-  navbar-links:
+navbar-links:
   "About Me": "aboutme"
   "Resources":
     - name: "Beautiful Jekyll"
