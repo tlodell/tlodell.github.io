@@ -1,5 +1,7 @@
 [![](https://i.imgur.com/zNBkzj1.png)](https://beautifuljekyll.com/plans/)
 
+TEST TEST TEST TEST
+
 # Beautiful Jekyll
 
 [![xscode](https://img.shields.io/badge/Available%20on-xs%3Acode-blue?style=?style=plastic&logo=appveyor&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRF////////VXz1bAAAAAJ0Uk5T/wDltzBKAAAAlUlEQVR42uzXSwqAMAwE0Mn9L+3Ggtgkk35QwcnSJo9S+yGwM9DCooCbgn4YrJ4CIPUcQF7/XSBbx2TEz4sAZ2q1RAECBAiYBlCtvwN+KiYAlG7UDGj59MViT9hOwEqAhYCtAsUZvL6I6W8c2wcbd+LIWSCHSTeSAAECngN4xxIDSK9f4B9t377Wd7H5Nt7/Xz8eAgwAvesLRjYYPuUAAAAASUVORK5CYII=)](https://xscode.com/daattali/beautiful-jekyll)
@@ -10,6 +12,8 @@
 **Beautiful Jekyll** is a ready-to-use template to help you create a beautiful website quickly. Perfect for personal sites, blogs, or simple project websites.  [Check out a demo](https://beautifuljekyll.com) of what you'll get after just two minutes.  You can also look at [my personal website](https://deanattali.com) or [my consulting website](https://attalitech.com) to see it in use, or see [examples of websites](http://beautifuljekyll.com/examples) other people created using this theme.
 
 **If you enjoy Beautiful Jekyll, please consider [supporting me](https://github.com/sponsors/daattali) for over 5 years of development (and to unlock rewards!) ❤**
+
+TEST TEST TEST TEST
 
 ## Table of contents
 
@@ -44,6 +48,8 @@ __Check out [*What's New?*](https://beautifuljekyll.com/updates/) to see the lat
 
 <h2 id="sponsors">Sponsors 🏆</h2>
 
+TEST TEST TEST TEST
+
 Developing and maintaining Beautiful Jekyll takes a lot of time and effort - thank you to anyone who helps fund this effort!
 
 - [LoadView-Testing](https://www.loadview-testing.com/products/jmeter-load-testing/)
@@ -60,6 +66,8 @@ There's a very easy way to use this theme, and there's a hard way. For most peop
 
 ## The easy way (recommended!)
 
+TEST TEST TEST TEST
+
 Getting started is *literally* as easy as 1-2-3 :smile:
 
 Scroll down to see the steps involved, but here is a 40-second video just as a reference as you work through the steps. If you don't already have a [GitHub account](https://github.com/join), you'll need to sign up.
@@ -67,6 +75,8 @@ Scroll down to see the steps involved, but here is a 40-second video just as a r
 ![Installation steps](assets/img/install-steps.gif)
 
 <div class="gs-section-01" markdown="1" style="background-color: darkgray; padding: 10px;">
+
+TEST TEST TEST TEST
   
 ### 1. Fork this project
 
@@ -78,9 +88,13 @@ Fork this project by clicking the __*Fork*__ button at the top right corner of t
 
 ### 2. Rename the project to `<yourusername>.github.io`
 
+TEST TEST TEST TEST
+
 Click on __*Settings*__ at the top (the cog icon) and on that page you'll have an option to rename the project (*Repository name*). This will create a website with the **Beautiful Jekyll** template that will be available at `https://<yourusername>.github.io` within a couple minutes (check out the [FAQ](https://beautifuljekyll.com/faq/#custom-domain) if you want to use a different project name). If after a few minutes your website is still not ready, try making any edit to any file, just to force GitHub to re-build your site.
 
 </div>
+
+TEST TEST TEST TEST
 
 <div class="gs-section-03" markdown="1">
   
@@ -97,6 +111,8 @@ Note that in the video above only one setting in the `_config.yml` file is edite
 ### 4. Congratulations! You have a website!
 
 After you save your changes to the `_config.yml` file (by clicking on *Commit changes* as the video tutorial shows), your website should be ready in a minute or two at `https://<yourusername>.github.io`. Every time you make a change to any file, your website will get rebuilt and should be updated in about a minute or so. Your website will be initialized with several sample blog posts and a couple other pages.
+
+TEST TEST TEST TEST
 
 Note that this was the easy way to *create* your website, but it does come at a cost: when Beautiful Jekyll gains new features in the future, *updating* your website to include all the latest features is cumbersome. See the [FAQ](https://beautifuljekyll.com/faq/#updating) for help with upgrading in the future.
 
