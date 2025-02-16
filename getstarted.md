@@ -2,8 +2,6 @@
 
 # Beautiful Jekyll
 
-TEST TEST TEST
-
 [![xscode](https://img.shields.io/badge/Available%20on-xs%3Acode-blue?style=?style=plastic&logo=appveyor&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRF////////VXz1bAAAAAJ0Uk5T/wDltzBKAAAAlUlEQVR42uzXSwqAMAwE0Mn9L+3Ggtgkk35QwcnSJo9S+yGwM9DCooCbgn4YrJ4CIPUcQF7/XSBbx2TEz4sAZ2q1RAECBAiYBlCtvwN+KiYAlG7UDGj59MViT9hOwEqAhYCtAsUZvL6I6W8c2wcbd+LIWSCHSTeSAAECngN4xxIDSK9f4B9t377Wd7H5Nt7/Xz8eAgwAvesLRjYYPuUAAAAASUVORK5CYII=)](https://xscode.com/daattali/beautiful-jekyll)
 [![Gem Version](https://badge.fury.io/rb/beautiful-jekyll-theme.svg)](https://badge.fury.io/rb/beautiful-jekyll-theme)
 
@@ -30,7 +28,7 @@ TEST TEST TEST
 
 __Check out [*What's New?*](https://beautifuljekyll.com/updates/) to see the latest features.__
 
-- **SIMPLE**: TEST TEST TEST TEST TEST The primary goal of Beautiful Jekyll is to allow literally *anyone* to create a website in a few minutes.
+- **SIMPLE**: The primary goal of Beautiful Jekyll is to allow literally *anyone* to create a website in a few minutes.
 - **Modern**: Uses the latest best practices and technologies to achieve nearly perfect scores on Google Chrome's Audit.
 - **Mobile-first**: Designed to look great on both large-screen and small-screen (mobile) devices.
 - **Highly customizable**: Many personalization settings such as changing the background colour/image, adding a logo.
@@ -67,7 +65,7 @@ Getting started is *literally* as easy as 1-2-3 :smile:
 Scroll down to see the steps involved, but here is a 40-second video just as a reference as you work through the steps. If you don't already have a [GitHub account](https://github.com/join), you'll need to sign up.
 
 ![Installation steps](assets/img/install-steps.gif)
-TEST TEST TEST
+
 ### 1. Fork this project
 
 Fork this project by clicking the __*Fork*__ button at the top right corner of this page. Forking means that you now copied this entire project and all the files into your account.
@@ -84,7 +82,6 @@ Note that in the video above only one setting in the `_config.yml` file is edite
 
 ### 4. Congratulations! You have a website!
 
-TEST TEST TEST
 
 After you save your changes to the `_config.yml` file (by clicking on *Commit changes* as the video tutorial shows), your website should be ready in a minute or two at `https://<yourusername>.github.io`. Every time you make a change to any file, your website will get rebuilt and should be updated in about a minute or so. Your website will be initialized with several sample blog posts and a couple other pages.
 
@@ -112,7 +109,6 @@ Files you create inside the [`_posts`](./_posts) directory will be treated as bl
 
 # Customizing parameters for each page
 
-TEST TEST TEST
 
 **One last important thing**: In order to have your new pages use this template and not just be plain HTML pages, **you must add [YAML front matter](https://jekyllrb.com/docs/front-matter/) to the top of each page**:
 
