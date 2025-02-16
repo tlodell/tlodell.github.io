@@ -78,9 +78,10 @@ Fork this project by clicking the __*Fork*__ button at the top right corner of t
 Fork the [repository](https://github.com/daattali/beautiful-jekyll) 
 by clicking the Fork button on the top right corner in GitHub.
 
-</div>
 
 ### 2. Rename the project to `<yourusername>.github.io`
+
+</div>
 
 <div class="gs-section-02" markdown="1">
   
@@ -257,7 +258,7 @@ This template was not made *entirely* from scratch. I'd like to give special tha
 }
 
 .gs-section-01 p {
-    color: black
+    color: black;
     font-size: 18px;
     font-style: italic;
 }
@@ -283,6 +284,11 @@ This template was not made *entirely* from scratch. I'd like to give special tha
 }
 
 </style>
+
+git add .
+git commit -m "Trigger GitHub Pages rebuild"
+git push origin main
+
 
 
 I'd also like to thank [Dr. Jekyll's Themes](https://drjekyllthemes.github.io/), [Jekyll Themes](http://jekyllthemes.org/), and another [Jekyll Themes](http://jekyllrc.github.io/jekyllthemes/) for featuring Beautiful Jekyll in their Jekyll theme directories.
