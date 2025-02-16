@@ -71,12 +71,6 @@ Scroll down to see the steps involved, but here is a 40-second video just as a r
 Fork this project by clicking the __*Fork*__ button at the top right corner of this page. Forking means that you now copied this entire project and all the files into your account.
 
 
-<div class="gs-section-01">
-  <h3>Title in Green</h3>
-  <p>This text should be italic and black.</p>
-</div>
-
-
 <div class="gs-section-01" markdown="1" style="background-color: darkgray; padding: 10px;">
 
 ### 1. Fork the Beautiful Jekyll repository 
@@ -257,12 +251,6 @@ This template was not made *entirely* from scratch. I'd like to give special tha
 
 
 <style>
-
-  <div class="gs-section-01">
-  <h3>Title in Green</h3>
-  <p>This text should be italic and black.</p>
-</div>
-
 
 .gs-section-01 h3 { 
     color: green; 
