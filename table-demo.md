@@ -2,6 +2,9 @@
 layout: liquid-table
 title: 'amiright?'
 ---
+
+# {{ page.title }}  
+
 ![]({{site.url}}/assets/img/ryan-v-ryan.jpg)  
 
 ## Lorem Ipsum
