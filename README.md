@@ -250,47 +250,6 @@ You can also contribute by becoming an [official sponsor](https://github.com/spo
 This template was not made *entirely* from scratch. I'd like to give special thanks to [Jekyll Now](https://github.com/barryclark/jekyll-now) and [Bootstrap Clean Blog](https://github.com/IronSummitMedia/startbootstrap-clean-blog), from whom I've taken several ideas initially.
 
 
-<style>
-
-.gs-section-01 h3 { 
-    color: green; 
-    font-weight: bold;
-    font-size: 24px;
-}
-
-.gs-section-01 p {
-    color: black;
-    font-size: 18px;
-    font-style: italic;
-}
-
-.gs-section-02 h3 { 
-    color: blue; 
-    text-decoration: underline;
-    font-weight: bold;
-}
-
-.gs-section-02 p {
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.gs-section-03 h3 { 
-    color: green; 
-}
-
-.gs-section-03 p {
-    font-size: 16px;
-    line-height: 1.6;
-}
-
-</style>
-
-
-git add .
-git commit -m "Trigger GitHub Pages rebuild"
-git push origin main
-
 
 
 I'd also like to thank [Dr. Jekyll's Themes](https://drjekyllthemes.github.io/), [Jekyll Themes](http://jekyllthemes.org/), and another [Jekyll Themes](http://jekyllrc.github.io/jekyllthemes/) for featuring Beautiful Jekyll in their Jekyll theme directories.
