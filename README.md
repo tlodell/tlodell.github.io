@@ -1,6 +1,5 @@
 [![](https://i.imgur.com/zNBkzj1.png)](https://beautifuljekyll.com/plans/)
 
-TEST TEST TEST TEST
 
 # Beautiful Jekyll
 
@@ -258,33 +257,4 @@ This template was not made *entirely* from scratch. I'd like to give special tha
 
 
 I'd also like to thank [Dr. Jekyll's Themes](https://drjekyllthemes.github.io/), [Jekyll Themes](http://jekyllthemes.org/), and another [Jekyll Themes](http://jekyllrc.github.io/jekyllthemes/) for featuring Beautiful Jekyll in their Jekyll theme directories.
-
-<style>
-  .gs-section-01 h3 { 
-    color: red;
-  }
-
-  .gs-section-01 p {
-    font-size: 30px;
-  }
-
-  .gs-section-02 h3 { 
-    color: blue;
-    text-decoration: underline;
-  }
-
-  .gs-section-02 p {
-    font-size: 20px;
-    font-weight: bold;
-  }
-
-  .gs-section-03 h3 { 
-    color: green;
-  }
-
-  .gs-section-03 p {
-    font-size: 16px;
-    line-height: 1.6;
-  }
-</style>
 
