@@ -96,7 +96,7 @@ gg_plt <- italy_municipalities |>
 girafe(ggobj = gg_plt)
 ```
 
-### **Final Thoughts
+### **Final Thoughts**
 
 #### These simple steps, using the giscoR API, allow users to rapidly generate detailed and highly customizable maps. The predefined NUTS levels help users adjust the level of detail to suit their needs, and the interactive map with tooltips enhances the user experience.
 
