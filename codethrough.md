@@ -96,7 +96,7 @@ gg_plt <- italy_municipalities |>
 girafe(ggobj = gg_plt)
 ```
 
-<img src="assets/img/Screenshot%202025-02-27%20at%2022.15.11.png" alt="Map">
+<img src="assets/img/Screenshot%202025-02-27%20at%2022.15.11.png" alt="Map" width="200">
 
 
 ### **Final Thoughts**
