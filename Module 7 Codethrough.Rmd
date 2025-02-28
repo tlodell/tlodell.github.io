@@ -1,0 +1,137 @@
+---
+title: "Module 7 - Codethrough"
+author: "Thomas O'Dell"
+date: "2025-02-27"
+output: html_document
+---
+
+## Interactive Map Tutorial
+
+#### This Code-through demonstrates how to create an interactive map using the giscoR API from the European Geographic Information System of the Comission (GISCO).
+
+#### The map can be customized to showcase up to 4 administrative levels known as Nomenclature of Territorial Units for Statistics (NUTS). These levels will vary by country but generally will adhere to the following structure:
+
+-   **NUTS 0** → **Country**
+
+-   **NUTS 1** → **Geographical Regions**
+
+-   **NUTS 2** → **Provinces**
+
+-   **NUTS 3** → **Large Cities or Counties**
+
+### At a high level, the steps are as follows:
+
+#### - Install and load tidyverse, giscoR, and ggiraph packages
+
+#### - Determine desired NUTS level, and define objects using the gisco_get_nuts function. For European countries you can simply enter the country name to ensure the correct data is pulled. 
+
+#### - Input NUTS level, desired year(s), and map projection (EPSG 3035 is used in this case, as that is the optimal projection for Europe) 
+
+#### - Associate gg_plt with your defined NUTS levels (e.g. "Provinces". Define aesthetics (aes) and any thematic elements (e.g. border line width and color) 
+
+#### - Associate ggobj with gg_plt to ensure the girafe (graphing function) works appropriately 
+
+#### - Knit! 
+
+***
+
+#### The process is further detailed in the code below is the Step-by-step process
+
+***
+
+```{r setup, include=FALSE}
+
+#Load Packages
+library(tidyverse)
+library(giscoR)
+
+```
+
+#### STEP 1: Load Packages
+
+```{r}
+library(tidyverse)
+library(giscoR)
+```
+
+#### STEP 2:
+
+#### - Name and Define NUTS levels
+
+#### - Define year and map projection
+
+```{r}
+italy_municipalities <- gisco_get_nuts(
+  country = 'Italy',
+  nuts_level = '3',
+  year = "2024",
+  epsg = 3035
+) |>
+  as.tibble() |>
+  janitor::clean_names()
+```
+
+#### STEP 3: Name and Define any additional NUTS levels
+
+```{r}
+italy_regions <- gisco_get_nuts(
+  country = 'Italy',
+  nuts_level = 1,
+  year = "2024",
+  epsg = 3035
+) |>
+  as.tibble() |>
+  janitor::clean_names()
+```
+
+#### STEP 4: Load Additional packages
+
+```{r}
+library(ggplot2)
+library(ggiraph)
+```
+
+#### STEP 5:
+
+#### - Associate gg_plt with your name for desired NUTS level
+
+#### - Define geometry
+
+#### - Define additional desired data
+
+#### - Define any thematic elements such as color or font
+
+#### - Make any design decisions (e.g. I chose to omit the legend, though it comes standard with giscoR)
+
+```{r}
+gg_plt <- italy_municipalities |>
+  ggplot(aes(geometry = geometry)) +
+  geom_sf(
+    data = italy_regions,
+    aes(fill = nuts_name),
+    color = 'black',
+    linewidth = 0.5
+  ) +
+  geom_sf_interactive(
+    fill = NA,
+    aes(
+      data_id = nuts_id,
+      tooltip = nuts_name
+    ),
+    color = 'black',
+    linewidth = 0.1
+  ) + 
+  theme_void() +
+  theme(legend.position = 'none')
+
+girafe(ggobj = gg_plt)
+
+```
+
+### Final Thoughts
+
+These simple steps with the comprehensive giscoR API allows users to rapidly generate detailed and very customizeable maps. The pre-defined NUTS levels allow users to adjust the level of detail to their purposes and the interactive map with tooltip provides a pleasing user experience.
+
+This package is specific to Europe, feel free to try it yourself with your country of choice!
+
+<br><br><br><br>
