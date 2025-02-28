@@ -2,7 +2,7 @@
 **Thomas O’Dell**  
 *2025-02-27*
 
-<span style='color:orange"> *NOTE: An interactive version of this map is accessible via the "Codethru" link in the "Resources tab on the top navigation of this site* </span>
+<span style="color:orange"> *NOTE: An interactive version of this map is accessible via the "Codethru" link in the "Resources tab on the top navigation of this site* </span>
 
 
 ## Interactive Map Tutorial  
