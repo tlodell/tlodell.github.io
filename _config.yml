@@ -13,7 +13,8 @@ navbar-links:
     - Getting Started: "getstarted"  
     - Codethru: "https://60ef48f8e77649eaa45a5b73f5da80c2.app.posit.cloud/file_show?path=%2Fcloud%2Fproject%2FTesting-out-Interactive-Map.html"
   Author's home: "https://tlodell.github.io"
-  Table Demo: "table-demo"             
+  Table Demo: "table-demo"
+  Codethrough: "codethrough"
 
 # --- Logo --- #
 
