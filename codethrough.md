@@ -2,7 +2,8 @@
 **Thomas O’Dell**  
 *2025-02-27*
 
-### *NOTE: An interactive version of this map is accessible via the "Codethru" link in the "Resources tab on the top navigation of this site
+<span style='color:orange"> *NOTE: An interactive version of this map is accessible via the "Codethru" link in the "Resources tab on the top navigation of this site* </span>
+
 
 ## Interactive Map Tutorial  
 This Code-through demonstrates how to create an interactive map using the **giscoR** API from the European Geographic Information System of the Commission (GISCO).  
